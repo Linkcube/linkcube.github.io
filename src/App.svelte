@@ -26,6 +26,7 @@
 			<AudioControls
 				src="https://sveltejs.github.io/assets/music/holst.mp3"
 				display={true}
+				barPrimaryColor="#3c8bff"
 			/>
 		</article>
 
@@ -36,6 +37,9 @@
 			<AudioControls
 				src="https://sveltejs.github.io/assets/music/satie.mp3"
 				display={true}
+				barPrimaryColor="lightyellow"
+				iconColor="#d56ed5"
+				backgroundColor="#f0f0f075"
 			/>
 		</article>
 
@@ -46,6 +50,7 @@
 			<AudioControls
 				src="https://sveltejs.github.io/assets/music/beethoven.mp3"
 				display={true}
+				barPrimaryColor="lightpink"
 			/>
 		</article>
 
@@ -56,6 +61,10 @@
 			<AudioControls
 				src="https://sveltejs.github.io/assets/music/mozart.mp3"
 				display={true}
+				backgroundColor="#ffffff00"
+				barPrimaryColor="lightgreen"
+				barSecondaryColor="pink"
+				textColor="orange"
 			/>
 		</article>
 	</div>
@@ -85,6 +94,7 @@
 	}
 
 	.audio-container {
+		margin: auto;
 		width: 600px;
 	}
 

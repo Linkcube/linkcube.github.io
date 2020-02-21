@@ -14,7 +14,7 @@
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^5.1.2",
     "svelte": "^3.0.0",
-    "svelte-audio-controls": "^1.0.2"
+    "svelte-audio-controls": "^1.0.4"
   },
   "dependencies": {
     "sirv-cli": "^0.4.4"
