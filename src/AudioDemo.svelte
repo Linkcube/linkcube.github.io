@@ -6,7 +6,7 @@
     .audio-container {
 		margin: auto;
 		max-width: 800px;
-		min-width: 200px;
+		min-width: 350px;
 	}
 
 	article {
