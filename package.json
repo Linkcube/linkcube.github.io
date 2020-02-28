@@ -17,6 +17,7 @@
     "svelte-audio-controls": "^1.0.5"
   },
   "dependencies": {
-    "sirv-cli": "^0.4.4"
+    "sirv-cli": "^0.4.4",
+    "svelte-preview-card": "^1.0.0"
   }
 }

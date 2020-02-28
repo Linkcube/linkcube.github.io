@@ -1,5 +1,6 @@
 <script>
 	import AudioDemo from './AudioDemo.svelte';
+	import PreviewCardDemo from './PreviewCardDemo.svelte';
 </script>
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -7,6 +8,7 @@
 <main>
 	<h1>Linkcube's Component Demo</h1>
 	<AudioDemo></AudioDemo>
+	<PreviewCardDemo></PreviewCardDemo>
 </main>
 
 <style>
