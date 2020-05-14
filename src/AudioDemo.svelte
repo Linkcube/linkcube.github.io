@@ -1,5 +1,5 @@
 <script>
-    import AudioControls from 'svelte-audio-controls';
+    import { AudioControls } from 'linkcube-svelte-components';
 </script>
 
 <style>
@@ -14,7 +14,7 @@
 	}
 </style>
 
-<h2><a href="https://github.com/Linkcube/svelte-audio-controls">Svelte Audio Controls</a></h2>
+<h2>Svelte Audio Controls</h2>
 	<div class="audio-container">
 		<article>
 			<!-- https://musopen.org/music/9862-the-blue-danube-op-314/ -->
@@ -26,7 +26,7 @@
 			/>
 		</article>
 
-		<article>
+		<article style="--primary-color: #3c8bff;">
 			<h3>Mars, the Bringer of War (Inline tooltip)</h3>
 			<p><b>Gustav Holst</b> / performed by USAF Heritage of America Band</p>
 			<!-- https://musopen.org/music/43775-the-planets-op-32/ -->
@@ -38,7 +38,7 @@
 			/>
 		</article>
 
-		<article>
+		<article style="--primary-color: gold; --text-color: #d56ed5; --background-color: #f0f0f050">
 			<h3>Gymnopédie no. 1 (Semi-transparent Tooltip)</h3>
 			<p><b>Erik Satie</b> / performed by Prodigal Procrastinator</p>
 			<!-- https://musopen.org/music/8010-3-gymnopedies/ -->
@@ -51,7 +51,7 @@
 			/>
 		</article>
 
-		<article>
+		<article style="--primary-color: lightpink; --secondary-text-color: lightblue;">
 			<h3>Symphony no. 5 in Cm, Op. 67 - I. Allegro con brio (No Tooltip)</h3>
 			<p><b>Ludwig van Beethoven</b> / performed by European Archive</p>
 			<!-- https://musopen.org/music/2567-symphony-no-5-in-c-minor-op-67/ -->
@@ -63,7 +63,7 @@
 			/>
 		</article>
 
-		<article>
+		<article style="--primary-color: lightgreen; --secondary-color: pink; --text-color: orange;">
 			<h3>Requiem in D minor, K. 626 - III. Sequence - Lacrymosa (Controls with coloring)</h3>
 			<p><b>Wolfgang Amadeus Mozart</b> / performed by Markus Staab</p>
 			<!-- https://musopen.org/music/43683-requiem-in-d-minor-k-626/ -->
