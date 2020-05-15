@@ -1,6 +1,6 @@
 <script>
 import { 
-    IconButton, MaterialButton, MaterialInput, MaterialSelect, MaterialTable, MaterialTableRow, MaterialTextArea
+    IconButton, MaterialButton, MaterialInput, MaterialSelect, MaterialTable, MaterialTableRow, MaterialTextArea, PreviewCard
 } from 'linkcube-svelte-components';
 
 const numbers = ["One", "Two", "Three", "Four", "Five", "Six", "Seven"];
@@ -29,10 +29,6 @@ let bVal = 0;
 
     .smaller {
         width: 500px;
-    }
-
-    .bottom-padding {
-        margin-bottom: 500px;
     }
 </style>
 
@@ -132,7 +128,7 @@ let bVal = 0;
 </div>
 
 <h2>Material Text Area</h2>
-<div class="container bottom-padding">
+<div class="container">
     <div class="display-row">
         <MaterialTextArea height=300 width=300 resize="none" label="No Resizing"/>
         <MaterialTextArea height=300 width=300 resize="horizontal" label="Horizontal Resizing"/>

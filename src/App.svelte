@@ -2,15 +2,18 @@
 	import AudioDemo from './AudioDemo.svelte';
 	import PreviewCardDemo from './PreviewCardDemo.svelte';
 	import InputDemo from './InputDemo.svelte';
+	import ThemeDemo from './Themes.svelte';
 </script>
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <main>
 	<h1>Linkcube's Svelte Components Demo</h1>
+	
 	<AudioDemo></AudioDemo>
 	<PreviewCardDemo></PreviewCardDemo>
 	<InputDemo />
+	<ThemeDemo />
 </main>
 
 <style>
