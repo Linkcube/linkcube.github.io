@@ -10,25 +10,8 @@ export const load: LayoutLoad = () => {
             },
             {
                 title: "Professional Experience",
-                slug: "/industry",
-                items: [
-                    {
-                        title: "Front End",
-                        slug: "/delphix-front-end"
-                    },
-                    {
-                        title: "Cloud",
-                        slug: "/delphix-cloud"
-                    },
-                    {
-                        title: "Back End",
-                        slug: "/delphix-back-end"
-                    },
-                    {
-                        title: "Infrastructure",
-                        slug: "/delphix-infrastructure"
-                    }
-                ]
+                slug: "/professional-experience",
+                items: []
             },
             {
                 title: "Projects",
@@ -39,10 +22,27 @@ export const load: LayoutLoad = () => {
                         slug: "/shizu-assistance"
                     },
                     {
-                        title: "Radio Archive",
-                        slug: "/radio-archive"
+                        title: "Scanlation Harmonia",
+                        slug: "/scanlation-harmonia"
+                    },
+                    {
+                        title: "Svelte Components",
+                        slug: "/svelte-components"
+                    },
+                    {
+                        title: "Radio Archiver",
+                        slug: "/radio-archiver"
+                    },
+                    {
+                        title: "Old Python Projects",
+                        slug: "/old-python-projects"
                     }
                 ]
+            },
+            {
+                title: "Past Performances",
+                slug: "/performances",
+                items: []
             }
         ]
     };
