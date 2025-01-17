@@ -30,7 +30,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+          BASE_PATH: '/'
         run: |
           npm run build
       - name: Upload Artifacts
