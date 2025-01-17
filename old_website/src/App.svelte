@@ -5,11 +5,11 @@
 	import ThemeDemo from './Themes.svelte';
 </script>
 
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
 <main>
 	<h1>Linkcube's Svelte Components Demo</h1>
-	
+
 	<AudioDemo></AudioDemo>
 	<PreviewCardDemo></PreviewCardDemo>
 	<InputDemo />

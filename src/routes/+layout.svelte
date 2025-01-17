@@ -6,11 +6,11 @@
 	import type { LayoutData } from './$types';
 	import type { Snippet } from 'svelte';
 
-	let { data, children }: { data: LayoutData, children: Snippet} = $props();
+	let { data, children }: { data: LayoutData; children: Snippet } = $props();
+	export const prerender = true;
 </script>
 
 <ModeWatcher />
-
 
 <Sidebar.Provider>
 	<SidebarNav groups={data.groups} />
@@ -30,9 +30,8 @@
 </Sidebar.Provider>
 
 <style>
-
 	main {
-		overflow: hidden
+		overflow: hidden;
 	}
 	header {
 		width: 100vw;
@@ -45,7 +44,7 @@
 	}
 
 	.toggle-button {
-		margin-top: .75rem;
+		margin-top: 0.75rem;
 	}
 
 	.title {
@@ -55,5 +54,4 @@
 	.render-container {
 		padding-top: 3rem;
 	}
-
 </style>

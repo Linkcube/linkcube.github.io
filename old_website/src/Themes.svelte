@@ -1,24 +1,25 @@
 <script>
-    import { 
-        IconButton, MaterialButton, MaterialInput, MaterialSelect, MaterialTable, MaterialTableRow, MaterialTextArea, AudioControls
-    } from 'linkcube-svelte-components';
-    import ThemeBlock from './ThemeBlock.svelte';
+	import {
+		IconButton,
+		MaterialButton,
+		MaterialInput,
+		MaterialSelect,
+		MaterialTable,
+		MaterialTableRow,
+		MaterialTextArea,
+		AudioControls
+	} from 'linkcube-svelte-components';
+	import ThemeBlock from './ThemeBlock.svelte';
 </script>
-
-<style>
-    div {
-        margin-left: auto;
-        margin-right: auto;
-    }
-</style>
 
 <h2>Theming</h2>
 
 <div>
-    <ThemeBlock />
+	<ThemeBlock />
 </div>
 
-<div style="
+<div
+	style="
     --primary-color: lightgray;
     --secondary-color: black;
     --background-color: gray;
@@ -27,11 +28,11 @@
     --highlight-color: blue;
     background: gray;"
 >
-    <ThemeBlock />
+	<ThemeBlock />
 </div>
 
-
-<div style="
+<div
+	style="
     --primary-color: #3700B3;
     --secondary-color: #03DAC6;
     --background-color: white;
@@ -40,10 +41,11 @@
     --highlight-color: yellow;
     background: white;"
 >
-    <ThemeBlock />
+	<ThemeBlock />
 </div>
 
-<div style="
+<div
+	style="
     --primary-color: white;
     --secondary-color: #00BCD4;
     --background-color: #3700B3;
@@ -52,10 +54,11 @@
     --highlight-color: yellow;
     background: #3700B3;"
 >
-    <ThemeBlock />
+	<ThemeBlock />
 </div>
 
-<div style="
+<div
+	style="
     --primary-color: #FFA000;
     --secondary-color: #CDDC39;
     --background-color: #212121;
@@ -64,5 +67,12 @@
     --highlight-color: #607D8B;
     background: #212121;"
 >
-    <ThemeBlock />
+	<ThemeBlock />
 </div>
+
+<style>
+	div {
+		margin-left: auto;
+		margin-right: auto;
+	}
+</style>
