@@ -10,6 +10,8 @@
 		2025
 	</h2>
 	<ul class="my-6 ml-6 list-disc [&>li]:mt-2">
+		<li>[2025.05.03] Anison Hijack: Heavy Sick Live (Tokyo)</li>
+		<li>[2025.03.15] Anison Hijack: Wonderville Live (NYC)</li>
 		<li>2025 Winter Soiree (Roanoke)</li>
 	</ul>
 
