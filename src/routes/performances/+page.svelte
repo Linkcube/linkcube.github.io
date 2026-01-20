@@ -7,12 +7,29 @@
 	<h2
 		class="mt-6 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
 	>
+		2026
+	</h2>
+	<ul class="my-6 ml-6 list-disc [&>li]:mt-2">
+		<li>[2026.01.02] Anikura Unison 2025: Circus Tokyo (Tokyo)</li>
+		<li>[2026.01.01] Anison Hijack: Akihabara IV (Tokyo)</li>
+	</ul>
+
+	<h2
+		class="mt-6 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
+	>
 		2025
 	</h2>
 	<ul class="my-6 ml-6 list-disc [&>li]:mt-2">
+		<li>[2025.12.25] Akihabara IV (Tokyo)</li>
+		<li>[2025.12.18] Anison Hijack: Raizeen (Tokyo)</li>
+		<li>[2025.11.15] Anison Hijack: Anicour! 7</li>
+		<li>[2025.11.01] Anison Hijack: Haunted Harvest</li>
+		<li>[2025.08.02] Anison Hijack: August Hijack</li>
+		<li>[2025.07.25] Shamibob 2025</li>
+		<li>[2025.07.19] Anison Hijack: Heatwave 2025</li>
 		<li>[2025.05.03] Anison Hijack: Heavy Sick Live (Tokyo)</li>
 		<li>[2025.03.15] Anison Hijack: Wonderville Live (NYC)</li>
-		<li>2025 Winter Soiree (Roanoke)</li>
+		<li>[2025.01.xx] 2025 Winter Soiree (Roanoke)</li>
 	</ul>
 
 	<h2
